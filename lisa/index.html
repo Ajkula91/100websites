@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fotog</title>
+	<meta name="description" content="Portfolio for photographer">
+	<meta name="author" content="Ajkuly">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- FONT
+	_______________________ -->
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/
+	magnific-popup.css">
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/d94d7e18c1.js"></script>
+
+	<!-- instagram povezan sa sajtom -->
+</head>
+<body>
+
+	<header class="main_nav green">
+		<div class="container">
+			<div class="twelve columns">
+				<div class="logo">
+					<a href="https://www.facebook.com/" target="_blank">Lisa James</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container main">
+		<div class="row">
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/1.jpg"><img src="css/1.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/2.jpg"><img src="css/2.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/3.jpg"><img src="css/3.jpg" /></a>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/4.jpg"><img src="css/4.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/5.jpg"><img src="css/5.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/6.jpg"><img src="css/6.jpg" /></a>
+			</div>
+		</div>
+
+
+		<div class="row" style="margin-bottom:6%;">
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/7.jpg"><img src="css/7.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/8.jpg"><img src="css/8.jpg" /></a>
+			</div>
+			<div class="four columns portfolio">
+				<a class="image-link" href="css/9.jpg"><img src="css/9.jpg" /></a>
+			</div>
+		</div>
+	</div><!--container-->
+
+<div class="row green">
+	<div class="container">
+		<div class="four columns">
+			<a href="https://www.facebook.com/" target="_blank"><img class="avatar" src="css/photograph4.png"/></a>
+		</div>
+		<div class="eight columns">
+			<h2 class="bio">About Lisa James</h2>
+			<p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</div><!--Row Green-->
+
+<footer>
+	<div class="container">
+		<div class="row twelve columns">
+			<ul class="social">
+				<li class="facebook"><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+				<li class="twitter"><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+				<li class="instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+				<li class="flickr"><a href="#"><i class="fa fa-flickr fa-lg"></i></a></li>
+				<li class="youtube"><a href="#"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+				<li class="linkedin"><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+			</ul>
+		</div>
+		<div class="row twelve columns">
+			<p class="copyright">&copy; 2016 Lisa the Traveling Fotog. All Rights Reserved.</p>
+		</div>
+	</div>
+	
+</footer>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript">
+// Initialize popup as usual
+$('.image-link').magnificPopup({
+	  type: 'image',
+	  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+	  zoom: {
+	    enabled: true, // By default it's false, so don't forget to enable it
+
+	    duration: 300, // duration of the effect, in milliseconds
+	    easing: 'ease-in-out', // CSS transition easing function
+
+	    // The "opener" function should return the element from which popup will be zoomed in
+	    // and to which popup will be scaled down
+	    // By defailt it looks for an image tag:
+	    opener: function(openerElement) {
+	      // openerElement is the element on which popup was initialized, in this case its <a> tag
+	      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+	      return openerElement.is('img') ? openerElement : openerElement.find('img');
+	    }
+	  }
+
+});
+	</script>	
+</body>
+</html>
