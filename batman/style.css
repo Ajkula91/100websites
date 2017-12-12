@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Indie Flower';
+    font-size: 18px;
+    /* The image used */
+    background-image: url("batmanbackg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    /*think about this*/
+    p {
+        padding: 10px 10px;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: .5px;
+    }
+
+    h1 {
+        margin: 0 auto;
+        padding: 20px 20px;
+        font-size: 150%;
+        -webkit-animation: color 5s infinite;
+        -moz-animation: color 5s infinite;
+        -o-animation: color 5s infinite;
+        -ms-animation: color 5s infinite;
+        animation: color 5s infinite;
+    }
+
+    .container {
+        max-width: 800px;
+        height: auto;
+        background-color: #F5F5DC;
+        margin: 0 auto;
+        padding: 10px 20px 20px 10px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 5px solid white;
+        border: 5px solid rgba(250,250,250,.9);
+        box-shadow: 1px 1px 25px #000; 
+        -webkit-box-shadow: 1px 1px 25px #000;
+        -moz-box-shadow: 1px 1px 25px #000;  
+    }
+
+
+    .container:hover {
+        background-color: #eee; /* Fallback */
+        background-color: rgba(255,250,225,.9); 
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+
+    .container2:hover {
+        opacity: 0.9;
+        -webkit-transform: rotate(-1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    .container3:hover {
+        opacity: 0.9;
+        box-shadow: 1px 1px 25px rgb(150,0,0);
+        box-shadow: 1px 1px 25px rgba(150,0,0,.9);
+        -webkit-box-shadow: 1px 1px 25px rgba(150,0,0,.9);
+        -moz-box-shadow: 1px 1px 25px rgba(150,0,0,.9); 
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+
+    .container2 {
+        margin-top: 150px;
+        margin-right: 20px;
+        margin-left: 20px;
+        float: right;
+        max-width: 800px;
+        background-color: #F5F5DC;
+        padding: 20px 20px 20px 10px;
+        border: 5px solid rgb(250,250,250);
+        border: 5px solid rgba(250,250,250,.9);
+        box-shadow: 1px 1px 25px rgba(150,0,0,.9);
+        -webkit-box-shadow: 1px 1px 25px rgba(150,0,0,.9);
+        -moz-box-shadow: 1px 1px 25px rgba(150,0,0,.9); 
+    }
+
+    .container3 {
+        margin-top: 150px;
+        margin-right: 20px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        float: left;
+        max-width: 800px;
+        background-color: #F5F5DC;
+        padding: 20px 20px 20px 10px;
+        border: 1px solid rgb(250,250,250);
+        border: 1px solid rgba(250,250,250,.4);
+    }
+
+    .full1 {
+            height: 500px;
+            width: auto;
+            background: url("http://www.goliath.com/wp-content/uploads/2016/03/joker1.png");
+            background-attachment: fixed;
+            background-position: center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    }
+
+    .full2 {
+        height: 500px;
+        width: auto;
+        background: url("https://cdn2.vox-cdn.com/thumbor/lmx53pS1wluqAIEfvPsMO45aAyY=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6191339/killing-joke.0.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        clear: both;
+    }
+
+    img.harleyone {
+        max-width: 200px;
+        margin: 0 auto;
+        float: left;
+        padding: 20px 20px;
+    }
+
+     img.harleytwo {
+        max-width: 100px;
+        margin: 0 auto;
+        float:right;
+
+    }
+
+    img.harleynjoke {
+        max-width: 230px;
+        float: right;
+        margin:0 auto;
+    }
+
+    img.harleyjoke {
+        max-width: 200px;
+        float:left;
+        padding: 10px 20px;
+        border-radius: 50%;
+    }
+
+    img.harleygif {
+        max-width: 230px;
+        background-color: #fff;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        float: right;
+        border: 1px solid #F5F5DC;
+        transform: rotate(1deg);
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+
+    img.harleygif:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    img.jokerone {
+        max-width: 250px;
+        margin: 0 auto;
+        float: left;
+        padding: 10px 10px;
+    }
+
+    audio {
+        display: none;
+    }
+
+    @-webkit-keyframes color {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-moz-keyframes color {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-ms-keyframes color {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @-o-keyframes color {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    @keyframes color {
+        0% { color: red; }
+        50% { color: black; }
+        100% { color: red; }
+    }
+    /*________JOKER__________*/
+
+    .jokerh1 {
+        font-size: 2.5em;
+        float: right;
+        margin-left: 15px;
+    }
+
+    .containerjoker {
+        background-color: #8ea54a;
+        max-width: 800px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px 20px 20px 10px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 3px solid rgb(250,250,250);
+        border: 3px solid rgba(250,250,250,.9);
+        -webkit-box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        -moz-box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);   
+        opacity: .9;
+    }
+
+
+    .containerjoker2 {
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        float: right;
+        max-width: 800px;
+        background-color: #8ea54a;
+        padding: 20px 20px 20px 10px;
+        border: 5px solid rgb(250,250,250);
+        border: 5px solid rgba(250,250,250,.9);
+        -webkit-box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        -moz-box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+        opacity: .9;
+    }
+
+    .containerjoker3 {
+        margin: 0 auto;
+        height: auto;
+        max-width: 800px;
+        background-color: #8e354a;
+        padding: 20px 20px 20px 10px;
+        border: 1px solid rgb(250,250,250);
+        border: 1px solid rgba(250,250,250,.4);
+    }
+
+    .containerjoker3 p {
+        font-size: 16px;
+    }
+
+    img.jokergif {
+        max-width: 250px;
+        margin: 0 auto;
+        float: right;
+        padding: 10px 10px;
+    }
+
+    img.jokerpic {
+        max-width: 200px;
+        margin-bottom: 15px;
+        border-radius: 50%;
+    }
+
+    /* ______BANE_______*/
+    .fullbane {
+        height: 500px;
+        width: auto;
+        background: url("bane2.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        clear: both;
+    }
+
+    .containerbane {
+        height: 100%;
+        background-color: #fff86e;
+        margin: 0 auto;
+        padding: 10px 20px 20px 10px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 5px solid rgb(250,250,250);
+        border: 5px solid rgba(250,250,250,.9);
+        -webkit-box-shadow: 1px 1px 25px #000;
+        -moz-box-shadow: 1px 1px 25px #000;
+        box-shadow: 1px 1px 25px #000;
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);    
+    }
+
+    img.baneone {
+        max-width: 300px;
+        margin: 0 auto;
+        float: left;
+        padding: 5px 5px;
+    }
+
+    img.banetwo {
+        margin: 0 auto;
+        max-width: 250px;
+        float: right;
+        padding: 5px 5px;
+    }
+
+    h1.baneh1 {
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 20px;
+        font-size: 200%;
+        -webkit-animation: color 5s infinite;
+        -moz-animation: color 5s infinite;
+        -o-animation: color 5s infinite;
+        -ms-animation: color 5s infinite;
+        animation: color 5s infinite;
+    }
+
+    .banediv {
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .containerbane2 {
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        float: left;
+        max-width: 800px;
+    }
+
+    img.banebreak {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    img.banegif {
+        max-width: 350px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+        float: right;
+    }
+
+    /* ____SCARECROW_____*/
+
+    .fullcrow {
+        height: 500px;
+        width: auto;
+        background: url("scarecrow1.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        clear: both;
+    }
+    .containerscare {
+        background-color: #8ea54a;
+        max-width: 800px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px 20px 20px 10px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        border: 3px solid rgb(250,250,250);
+        border: 3px solid rgba(250,250,250,.9);
+        -webkit-box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        -moz-box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        box-shadow: 15px 10px 5px rgba(12, 24, 12, 0.9);
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);   
+        opacity: .9;
+    }
+
+
+    .containerscare2 {
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+        float: right;
+        max-width: 800px;
+        background-color: #8ea54a;
+        padding: 20px 20px 20px 10px;
+        border: 5px solid rgb(250,250,250);
+        border: 5px solid rgba(250,250,250,.9);
+        -webkit-box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        -moz-box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        box-shadow: -10px 5px 5px rgba(12, 24, 12, 0.9);
+        -webkit-transform: rotate(-1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+        transform: rotate(-1deg);  
+        opacity: .9;
+    }
+
+    .mainscare {
+        margin: 0 auto;
+        height: auto;
+    }
+
+    img.scarecrow1 {
+        max-width: 300px;
+        padding: 5px 5px;
+        float: left;
+    }
+
+    img.scarecrow2 {
+        max-width: 200px;
+        padding: 5px 5px;
+        float: right;
+    }
+    
+    /* media queries */
+    @media (max-width: 400px) {
+      .container, .container2, .container3, .containerjoker, .containerjoker2, .containerjoker3, .containerbane, .containerbane2, .containerscare {
+         float: none;
+         margin:0 auto;
+         width: auto;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); 
+         text-align: center;
+    }
+
+    img.baneone {
+        max-width: 200px;
+    }
+
+    img.banetwo {
+        max-width: 150px;
+    }
+
+    img.banegif {
+        margin-left: 5px;
+        max-width: 150px;  
+    }
+
+    img.banebrake {
+        margin-top: 10px;
+        max-width: 150px;
+        text-align: center;
+     }
+
+     .harleyone {
+        padding: 0;
+     }
+
+    .full1 {
+        height: 500px;
+        width: auto;
+        background: url("http://www.goliath.com/wp-content/uploads/2016/03/joker1.png");
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    p {
+        padding: 5px 5px;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: .5px;
+    }
+
+    img.scarecrow1 {
+        max-width: 200px;
+    }
+
+    img.scarecrow2 {
+        max-width: 150px;
+    }
+  }
+  /*
+    @media screen and (max-width:320px) {}
+    @media screen and (min-width:321px) and (max-width:639px) {}
+    @media screen and (min-width:640px) and (max-width:959px) {}
+    @media screen and (min-width:960px) and (max-width:1279px) {}
+    @media screen and (min-width:1280px) and (max-width:1599px) {}
+    @media screen and (min-width:1600px) {}
+    @media screen and (min-width:1920px) {}
+}
+*/
