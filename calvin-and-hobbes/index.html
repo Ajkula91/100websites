@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Calvin and Hobbes</title>
+	<link rel="stylesheet" type="text/css" href="jquery.fullpage.css">
+	<link rel="stylesheet" type="text/css" href="skeleton.css">
+	<link rel="stylesheet" type="text/css"   href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="magnific-popup.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Open+Sans">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="jquery.fullpage.js"></script>
+	<script type="text/javascript" src="jquery.magnific-popup.js"></script>
+
+	<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". 
+	<script src="vendors/jquery.easings.min.js"></script> -->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<!--This following line is only necessary in the case of using the plugin option `scrollOverflow:true` 
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script> -->
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#fullpage').fullpage({
+    	sectionsColor: ['blue', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+    	css3: true,
+    	slidesNavigation: true,
+    	scrollingSpeed: 1100
+    });
+$('.image-link').magnificPopup({
+	  type: 'image',
+	  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+	  zoom: {
+	    enabled: true, // By default it's false, so don't forget to enable it
+
+	    duration: 300, // duration of the effect, in milliseconds
+	    easing: 'ease-in-out', // CSS transition easing function
+
+	    // The "opener" function should return the element from which popup will be zoomed in
+	    // and to which popup will be scaled down
+	    // By defailt it looks for an image tag:
+	    opener: function(openerElement) {
+	      // openerElement is the element on which popup was initialized, in this case its <a> tag
+	      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+	      return openerElement.is('img') ? openerElement : openerElement.find('img');
+	    }
+	  }
+
+});
+
+
+setTimeout(function(){
+    document.getElementById('proba').className = 'waa';
+}, 20000);
+
+
+
+});
+
+</script>
+
+</head>
+<body>
+
+	<div id="fullpage">
+	    <div class="section" id="section0">
+	    <!-- ============= SLIDE 1 ============= -->
+	    	<div class="slide" id="slide1">
+			<div class="row white-container">
+			
+				<div class="container">
+					<div class="three-thirds column">
+						<h2 class="naslov">Calvin and Hobbes</h2>
+						<p><span class="color">Calvin and Hobbes</span> is a daily comic strip by American cartoonist <span class="color">Bill Watterson</span> that was syndicated from November 18, 1985 to December 31, 1995. Commonly cited as <span class="color">"the last great newspaper comic"</span>, Calvin and Hobbes has evinced broad and enduring popularity, influence, and academic interest.</p>
+						<p>Calvin and Hobbes follows the humorous antics of Calvin, a precocious, mischievous, and adventurous six-year-old boy, and Hobbes, his sardonic stuffed tiger. The pair is named after <span class="color">John Calvin</span>, a 16th-century French Reformation theologian, and <span class="color">Thomas Hobbes</span>, a 17th-century English political philosopher. Set in the contemporary, suburban United States, the strip depicts Calvin's frequent flights of fancy and his friendship with Hobbes. It also examines Calvin's relationships with family and classmates, especially the love/hate relationship between him and his classmate, Susie Derkins. Hobbes' dual nature is a defining motif for the strip: to Calvin, Hobbes is a live anthropomorphic tiger; all the other characters see Hobbes as an inanimate stuffed toy. Though the series does not mention specific political figures or current events,<span class="color"> it does explore broad issues like environmentalism, public education, philosophical quandaries, and the flaws of opinion polls</span>.</p>
+						<img class="img-gif" src="dancing.gif" alt="dancing gif">
+					</div>
+				</div>
+			</div>
+	    	</div>
+	  
+
+	    		
+	    <!-- ============= SLIDE 2 ============= -->
+	    	<div class="slide" id="slide2">
+	    			<h2 style="margin-bottom: 3%">Characters</h2>	    		
+	    			<div class="row" style="text-align: center;">
+	    				<div class="container u-max-full-width">
+								<div class="four columns">
+									<img src="calvin1.png" alt="calvin picture">
+									<p>Calvin, named after the 16th-century theologian John Calvin, is a six-year-old, whose last name is never mentioned in the strip.[31] Despite his poor grades in school, Calvin demonstrates his intelligence through his sophisticated vocabulary and a philosophical mind.</p>
+								</div>
+								<div class="four columns">
+									<img src="hobbes.png" alt="hobbes picture">
+									<p>From Calvin's point of view, Hobbes is an anthropomorphic tiger, much larger than Calvin and full of independent attitudes and ideas. When the perspective shifts to any other character, readers again see merely a stuffed animal, usually seated at an off-kilter angle and blankly staring into space.</p>
+								</div>
+								<div class="four columns">
+									<img src="momdad.png" alt="mom and dad picture">
+									<p>Calvin's unnamed mother and father are typical middle-class parents. Calvin's father is a patent attorney and his mother is a stay-at-home mom. Both remain unnamed except as "Mom" and "Dad," or pet names such as "honey" and "dear" between themselves. Watterson says, "As far as the strip is concerned, they are important only as Calvin's mom and dad." Like many other characters in the strip, they are relatively down-to-earth and their sensible attitudes serve as a foil for Calvin's outlandish behavior.</p>
+								</div>
+						</div>
+					</div>
+	    	</div>
+	    <!-- ============= SLIDE 3 ============= -->
+
+	    	<div class="slide" id="slide3">
+	    			<h4 id="proba">Click on pictures to ZOOM!</h4>
+	    			<div class="row">
+		    			<div class="slike1 rot1 six columns" title="click me"> 	
+		    				<a class="image-link" href="strip1.png"><img class="slike1" src="strip1.png" alt="comic"></a>
+						</div>
+						<div class="slike1 rot2 six columns">
+	    					<a class="image-link" href="strip2.png"><img class="slike1" src="strip2.png" alt="comic"></a>
+	    				</div>
+					</div>
+					<div class="row">
+		    			<div class="slike1 rot3 six columns"> 	
+		    				<a class="image-link" href="strip3.png"><img class="slike1" src="strip3.png" alt="comic"></a>
+						</div>
+						<div class="slike1 rot4 six columns">
+	    					<a class="image-link" href="strip4.png"><img class="slike1" src="strip4.png" alt="comic"></a>
+	    				</div>
+	    			</div>
+	    			<div class="row">
+		    			<div class="slike1 rot5 six columns"> 	
+		    				<a class="image-link" href="strip5.png"><img class="slike1" src="strip5.png" alt="comic"></a>
+						</div>
+						<div class="slike1 rot6 six columns">
+	    					<a class="image-link" href="strip6.png"><img class="slike1" src="strip6.png" alt="comic"></a>
+	    				</div>
+	    			</div>
+	    	</div>
+	    </div>
+	</div>
+
+</body>
+</html>

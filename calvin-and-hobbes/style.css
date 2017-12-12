@@ -1,0 +1,207 @@
+body {
+		text-rendering: optimizeLegibility;
+		overflow-x:	hidden;
+		font-family: 'Bangers', 'Open-sans', sans-serif, cursive;
+	}
+	/** SLIDES **/
+	.section {
+		font-size: 1em;
+		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
+		background: -webkit-linear-gradient(#7BAABE, #969AC6);
+		background: -webkit-linear-gradient(#7BAABE,#969AC6);
+		background: linear-gradient(#7BAABE,#969AC6);
+	}
+	#slide1 {
+		background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("coverslide0.png");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("coverslide0.png");
+		background-position: center;
+		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+	#slide2 {
+		background-color: white;
+	}
+	#slide3 {
+		background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("coverslide2.png");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("coverslide2.png");
+		background-position: center;
+		background-repeat: no-repeat;
+  		background-size: cover;
+  		text-align: center;
+	}
+	#slide4 {
+
+	}
+	
+ /** OTHER **/
+	.fp-controlArrow.fp-prev {
+	    left: 10px;
+	    width: 0;
+	    border-width: 38.5px 34px 38.5px 0;
+	    border-color: transparent orange transparent transparent;
+	    opacity: .9;
+	}
+	.fp-controlArrow.fp-next {
+	    right: 10px;
+	    border-width: 38.5px 0 38.5px 34px;
+	    border-color: transparent transparent transparent orange;
+	    opacity: .9;
+	}
+
+	#fp-nav ul li a span, .fp-slidesNav ul li a span {
+		background-color: orange;
+	}
+
+	.slike1 img{
+		 margin-bottom: 5%;	
+		 max-width: 50%;
+	}
+
+	.rot1 {
+		-webkit-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        transform: rotate(1deg);
+	}
+
+	.rot2 {
+		-webkit-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+	}
+
+	.rot3 {
+		-webkit-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+	}
+
+	.rot4 {
+		-webkit-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        transform: rotate(1deg);
+	}
+
+	.rot5 {
+		-webkit-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+	}
+
+	.rot6 {
+		-webkit-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+	}
+	
+	.slike1 img:hover{opacity: 0.8;}
+
+	.mfp-with-zoom.mfp-ready .mfp-container {
+	    background-color: black;
+	    opacity: .9;
+	}
+	
+	h4 {
+		right: 75%;
+		opacity: 1;
+		-webkit-transition: 4000ms;
+		transition: 4000ms;
+		color: orange;
+	}
+
+
+	h4.waa {
+	opacity: 0;
+	}
+
+	
+
+	.color {
+		font-size: 1.2em;
+		color: orange;
+	}
+
+	/** ======================= SLIDE 2 ======================= **/
+
+	.container {
+		background-color: white;
+		padding: 10px 10px;
+	}
+
+	/**.container1 {
+		background-color: white;
+		opacity: .9;
+		padding-left:5px;
+		padding-right:5px;
+		margin-left: 10%;
+	}
+	**/
+
+
+	.img-gif {
+		display: block;
+		margin: auto;
+	}
+	
+	.white-container {
+		opacity: .9;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+/** ============== MEDIA QUERIES ============ **/
+
+/*mobile */
+@media (min-width: 200px) and (max-width: 400px) {
+	p {font-size: .78em;}
+	h2 {font-size: 1.5em;}
+	img {max-width: 30%;}
+	.slike1 img {max-width: 45%;}
+	.img-gif {max-width: 80%;}
+	.fp-controlArrow.fp-prev {display:none;}
+	.fp-controlArrow.fp-next {display:none;}
+	.fp-slidesContainer {background-color: red;}
+
+}
+/* Larger than mobile */
+@media (min-width: 400px) and (max-width: 550px) {
+	p {font-size: 0.81em;}
+	h2 {font-size: 1.9em;}
+	img {max-width: 20%;}
+	.img-gif {max-width: 60%;}
+	.slike1 img {max-width: 45%;}
+	.fp-controlArrow.fp-prev {border-width: 38.5px 20px 38.5px 0;}
+	.fp-controlArrow.fp-next {border-width: 38.5px 0 38.5px 20px;}
+}
+/* Larger than phablet */
+@media (min-width: 550px) {
+	p {font-size: 0.88em;}
+	h2 {font-size: 2.2em;}
+	img {max-width: 60%;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	p {font-size: .9em;}
+	h2 {font-size: 2.3em;}
+	img {max-width: 70%;}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	p {font-size: 1em;}
+	h2 {font-size: 2.5em;}
+	img {max-width: 80%;}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	p {font-size: 1em;}
+	h2 {font-size: 2.5em;}
+	img {max-width: 100%;}
+}
