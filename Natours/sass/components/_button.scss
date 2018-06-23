@@ -6,7 +6,7 @@
         padding: 1.5rem 4rem;
         display: inline-block;
         border-radius: 10rem;
-        transition: all .2s;
+        transition: all .3s ease-in-out;
         position: relative;
         font-size: $default-font-size;
     }
@@ -31,7 +31,15 @@
         color: $color-grey-dark;
         &:after {
             background-color: $color-white;
-        }
+        }     
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        &:after {
+            background-color: $color-white;
+        }      
     }
     
     &:after {
@@ -50,7 +58,11 @@
     &--white:after {
         background-color: $color-white;
     }
-    
+
+    &--green:after {
+        background-color: $color-primary;
+    }
+
     &--animated {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
