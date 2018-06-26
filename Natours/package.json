@@ -12,6 +12,7 @@
     "node-sass": "^4.9.0"
   },
   "dependencies": {
+    "balanced-match": "^1.0.0",
     "momentum": "^4.0.0"
   }
 }
