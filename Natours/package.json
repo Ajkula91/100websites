@@ -11,5 +11,7 @@
   "devDependencies": {
     "node-sass": "^4.9.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "momentum": "^4.0.0"
+  }
 }
