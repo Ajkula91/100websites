@@ -14,3 +14,5 @@ Superslides - https://github.com/nicinabox/superslides
 
 Typed JS - https://github.com/mattboldt/typed.js/
 
+Owl carousel - https://owlcarousel2.github.io/OwlCarousel2/
+
