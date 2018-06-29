@@ -32,5 +32,9 @@ $(document).ready(function() {
             }
         }
     });
+    //easy pie chart
+    $('.chart').easyPieChart({
+        //your options goes here
+    });
 
 });
