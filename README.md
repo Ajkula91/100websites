@@ -24,3 +24,5 @@ Free pictures - https://www.pexels.com
 
 Free icons - https://icons8.com
 
+Color palette - https://color.adobe.com/create/color-wheel/
+
