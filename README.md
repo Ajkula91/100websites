@@ -4,6 +4,8 @@ My plan is to practice by making 100 websites.
 
 I have used:
 
+##CSS & JS
+
 Skeleton boilerplate - great for small projects
 
 Bootstrap - awesome and responsive framework
@@ -15,4 +17,6 @@ Superslides - https://github.com/nicinabox/superslides
 Typed JS - https://github.com/mattboldt/typed.js/
 
 Owl carousel - https://owlcarousel2.github.io/OwlCarousel2/
+
+##ICONS, PICTURES & SIMILAR
 
