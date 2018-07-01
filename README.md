@@ -18,6 +18,8 @@ Typed JS - https://github.com/mattboldt/typed.js/
 
 Owl carousel - https://owlcarousel2.github.io/OwlCarousel2/
 
+CountUp.js - https://github.com/inorganik/CountUp.js
+
 ## ICONS, PICTURES & SIMILAR
 
 Free pictures - https://www.pexels.com 
