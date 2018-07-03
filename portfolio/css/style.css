@@ -227,6 +227,11 @@ body {
 
 .items li img {
     width: 100%;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    transition: all 0.2s linear, 1s;
 }
 
 .items .item {
@@ -258,6 +263,11 @@ body {
     background-color: #222;
     position: relative;
     display: inline-block;
+    -webkit-transition: all 0.2s linear, .3s;
+    -moz-transition: all 0.2s linear, .3s;
+    -o-transition: all 0.2s linear, .3s;
+    -ms-transition: all 0.2s linear, .3s;
+    transition: all 0.2s linear, .3s;
 }
 
 .items .imageOverlay {
@@ -279,6 +289,46 @@ body {
     opacity: 1;
 }
 
+.items .openButton {
+    float: left;
+    left: -200px;
+}
+
+.items .projectLink {
+    float: right;
+    right: -200px;
+}
+
+.items .item:hover .openButton {
+    left: 0px;
+}
+
+.items .item:hover .projectLink {
+    right: 0px;
+}
+
+.items .item:hover img {
+    -webkit-transform: scale(1.02, 1.02);
+    -moz-transform: scale(1.02, 1.02);
+    -o-transform: scale(1.02, 1.02);
+    -ms-transform: scale(1.02, 1.02);
+    transform: scale(1.02, 1.02); 
+}
+
+.items {
+    padding: 0;
+}
+
+/**COPYRIGHT SECTION**/
+.copyrightSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
+
+.copyrightSection p {
+    margin: 0;
+}
 
 /* arrows for carousel
 .owl-carousel {
