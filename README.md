@@ -20,6 +20,10 @@ Owl carousel - https://owlcarousel2.github.io/OwlCarousel2/
 
 CountUp.js - https://github.com/inorganik/CountUp.js
 
+Isotope JS - https://isotope.metafizzy.co/ (not free for commercial use)
+
+Fancybox JS - http://fancyapps.com/fancybox/3/ (not free for commercial use)
+
 ## ICONS, PICTURES & SIMILAR
 
 Free pictures - https://www.pexels.com 

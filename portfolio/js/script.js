@@ -69,6 +69,19 @@ $(document).ready(function() {
 
     });
 
+    //fancy js
+    $("[data-fancybox]").fancybox();
+
+    //call isotope
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+
 });
 
 
