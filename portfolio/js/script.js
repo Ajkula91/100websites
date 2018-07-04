@@ -77,9 +77,11 @@ $(document).ready(function() {
     });
 
     //fancy js
-    $("[data-fancybox]").fancybox({
+    $("[data-fancybox").fancybox({
         arrows: true,
-        animationEffect: "zoom",
+        animationEffect: "zoom-in-out",
+        transitionEffect: "tube",
+        hideScrollbar: false,
         clickContent: false
     });
 
