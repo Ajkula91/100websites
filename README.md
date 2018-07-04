@@ -28,7 +28,9 @@ Fancybox JS - http://fancyapps.com/fancybox/3/ (not free for commercial use)
 
 Free pictures - https://www.pexels.com 
 
-Free icons - https://icons8.com
+Free and paid icons - https://icons8.com
 
 Color palette - https://color.adobe.com/create/color-wheel/
+
+Free and paid gifs - https://icons8.com/preloaders/
 
