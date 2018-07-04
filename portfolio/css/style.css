@@ -330,6 +330,66 @@ body {
     margin: 0;
 }
 
+/**NAVBAR**/
+
+#navigation {
+    background-color: #444;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar i {
+    color: #fff;
+}
+
+button:focus {outline:0;}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
+/*LOADER*/
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../img/loader.gif) center center no-repeat;
+}
+
+
+
+
+
+
+
 /* arrows for carousel
 .owl-carousel {
     position: relative;
