@@ -63,3 +63,9 @@ body {
     padding: 4px;
     border-radius: 5px;
 }
+
+@media(max-width: 576px) {
+    .navbar {
+        opacity: 1;
+    }
+} 

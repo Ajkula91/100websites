@@ -16,11 +16,11 @@
 	<title>Loolaplab theme</title>
 </head>
 
-<body>
+<body data-spy="scrool" data-target="#main-nav" id="home">
 	<!--START OF THE BODY CONTENT-->
 
 	<!--NAVBAR-->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">LoopLAB</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -29,7 +29,7 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="#home-head-section" class="nav-link">Home</a>
+						<a href="#home-section" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
 						<a href="#explore-head-section" class="nav-link">Explore</a>
@@ -262,6 +262,51 @@
 		</div><!--container end-->
 	</section>
 
+	<!--FOOTER-->
+	<footer id="main-footer" class="bg-dark">
+		<div class="container">
+			<div class="col text-center py-4">
+				<h3>LoopLAB</h3>
+				<p>Copyright &copy; <span id="year"></span></p>
+				<button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+			</div><!--Col end-->
+		</div><!--Container end-->
+	</footer>
+
+	<!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+				</div>
+				<div class="modal-body">
+					<form action="">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea class="form-control"></textarea>
+						</div>
+					</form>
+				</div><!--modal-body end-->
+				<div class="modal-footer">
+					<button class="btn btn-primary btn-block">
+						Submit
+					</button>
+				</div><!--modal-footer end-->
+			</div><!--modal-header end-->
+		</div><!--modal-content end-->
+	</div><!--ContactModal end-->
 
 
 	<!--END OF THE BODY CONTENT-->
@@ -280,6 +325,25 @@
 	<!--Get the current year for the copyright <span id="year"></span>-->
 	<script>
 		$('#year').text(new Date().getFullYear());
+
+		//eiit Scrollspy
+		$('body').scrollspy({ target: 'main-nav' });
+
+		// Smooth Scrolling
+		$("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+      	event.preventDefault();
+
+        const hash = this.hash;
+
+    $('html, body').animate({
+					scrollTop: $(hash).offset().top
+					}, 800, function () {
+
+					window.location.hash = hash;
+        });
+      }
+    });
 	</script>
 </body>
 
