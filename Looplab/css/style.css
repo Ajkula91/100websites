@@ -8,4 +8,50 @@ body {
     opacity: 0.8;
 }
 
+/**HOME SECTION**/
 
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    background-position: bottom;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,.7)
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.78;
+}
+
+#home-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/*EXPLORE SECTION*/
+#explore-section .fas, 
+#share-section .fas {
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.img-phone {
+    width: 400px;
+    height: 400px;
+}
