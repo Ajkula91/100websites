@@ -31,6 +31,32 @@ body {
     }
 }
 
+.info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#authors {
+    img {
+        margin-top: -50px;
+    }
+
+    .card:hover{
+        background-color: $primary;
+        color: #fff;
+    }
+
+    .fab {
+        color: rgb(223, 142, 51);
+        font-size: 25px;
+    }
+
+    .fab:hover {
+        color: #fff;
+    }
+}
+
 @media (max-width: 768px) {
     #showcase {
         min-height: 500px;

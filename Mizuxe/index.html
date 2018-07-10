@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="css/style.css">
     <title>LoopLAB theme</title>
 </head>
-<body>
+<body id="home" data-spy="scroll" data-target="#main-nav">
     
 <!--START OF THE BODY CONTENT-->
-<nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+<nav id="main-nav" class="navbar navbar-expand-md navbar-light fixed-top py-4">
     <div class="container">
         <a href="#home" class="navbar-brand">
             <img src="img/mlogo.png" alt="Logo" width="50" height="50">
             <h3 class="d-inline align-middle">Mizuxe</h3>
         </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navarCollapse">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon">
 
             </span>
@@ -128,6 +128,243 @@
     </div>
 </section>
 
+    <!--ABOUT / WHY SECTION-->
+    <section id="about" class="py-5 text-center bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary pb-3">
+                            Why This Book?
+                        </h1>
+                        <p class="lead pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt, eos sed tempora rem nisi.
+                        </p>
+                    </div><!--info-header-->
+                    <!--ACCORDION-->
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down"></i>Get Inspired
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse1" class="collapse show">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nobis dolorem vitae nihil quis magni laudantium illum dolore soluta, itaque ad est aliquam quibusdam delectus. Ab, similique officia dolore in hic voluptatibus placeat aliquid fuga tempore corrupti atque delectus consequuntur eius, labore, repellendus aut velit. Natus possimus fugiat eum quos!
+                                </div>
+                            </div><!--collapse-->
+                        </div><!--card-->
+                        <!--ACCORDION2-->
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down"></i>Gain The Knowledge
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nobis dolorem vitae nihil quis magni laudantium illum dolore soluta, itaque ad est aliquam quibusdam delectus. Ab, similique officia dolore in hic voluptatibus placeat aliquid fuga tempore corrupti atque delectus consequuntur eius, labore, repellendus aut velit. Natus possimus fugiat eum quos!
+                                </div>
+                            </div><!--collapse-->
+                        </div><!--card-->
+                        <!--ACCORDION3-->
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fas fa-arrow-circle-down"></i>Open your mind
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nobis dolorem vitae nihil quis magni laudantium illum dolore soluta, itaque ad est aliquam quibusdam delectus. Ab, similique officia dolore in hic voluptatibus placeat aliquid fuga tempore corrupti atque delectus consequuntur eius, labore, repellendus aut velit. Natus possimus fugiat eum quos!
+                                </div>
+                            </div><!--collapse-->
+                        </div><!--card-->
+                    </div><!--accordion-->
+                </div><!--col-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!--AUTHORS-->
+    <section id="authors" class="my-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h1 class="text-primary pb-3">
+                           Meet The Authors 
+                        </h1>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore sequi assumenda, rerum nesciunt veritatis.
+                        </p>
+                    </div><!--info-header-->
+                </div><!--col-->
+            </div><!--row-->
+            <!--Author1-->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person1.jpg" alt="img of person1" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Susan Williams</h3>
+                            <h5 class="text-muted">Lead Writer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis quaerat hic vero sunt odio?</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div><!--d-flex-->
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--col-->
+                <!--Author2-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person2.jpg" alt="img of person1" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Grace Smith</h3>
+                            <h5 class="text-muted">Co-Writer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis quaerat hic vero sunt odio?</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div><!--d-flex-->
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--col-->
+                <!--Author3-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person3.jpg" alt="img of person1" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>John Doe</h3>
+                            <h5 class="text-muted">Editor</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis quaerat hic vero sunt odio?</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div><!--d-flex-->
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--col-->
+                <!--Author4-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/person4.jpg" alt="img of person1" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Kevin Swanson</h3>
+                            <h5 class="text-muted">Designer</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis quaerat hic vero sunt odio?</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div><!--d-flex-->
+                        </div><!--card-body-->
+                    </div><!--card-->
+                </div><!--col-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Get In Touch</h3>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, quia?</p>
+                    <form>
+                        <!--NAME-->
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user">
+
+                                    </i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div><!--input-group-->
+                        <!--EMAIL-->
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope">
+
+                                    </i>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div><!--input-group-->
+                        <!--MESSAGE-->
+                        <div class="input-group input-group-lg mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-pencil-alt">
+
+                                    </i>
+                                </span>
+                            </div>
+                            <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                        </div><!--input-group-->
+                        <input type="submit" valute="Submit" class="btn btn-primary btn-block btn-lg">
+                    </form>   
+                </div><!--col-->
+
+                <div class="col-lg-3 align-self-center">
+                    <img src="img/mlogo.png" alt="" class="img-fluid">
+                </div>
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+
+    <!--FOOTER-->
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 ml-auto">
+                    <p class="lead">
+                        Copyright &copy; <span id="year"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <!--END OF THE BODY CONTENT-->
 
@@ -144,7 +381,33 @@
 
 <!--Get the current year for the copyright <span id="year"></span>-->
 <script>
+    //current year for copyright
     $('#year').text(new Date().getFullYear());
+
+
+    //init ScrollSpy
+    $('body').scrollspy({target: '#main-nav'});
+
+    //Smooth Scrolling
+    $("#main-nav a").on('click', function(event) {
+        if (this.hash !=="") {
+            event.preventDefault();
+
+            const hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    //accordion closing and opening, auto
+    var $myGroup = $('#accordion');
+    $myGroup.on('show.bs.collapse','.collapse', function() {
+    $myGroup.find('.collapse.show').collapse('hide');
+    });
 </script>
 </body>
 </html>
