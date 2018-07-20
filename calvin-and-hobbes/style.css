@@ -57,10 +57,18 @@ body {
 		 max-width: 50%;
 	}
 
+	a {
+		outline:0;
+	}
+
 	.rot1 {
 		-webkit-transform: rotate(1deg);
         -ms-transform: rotate(1deg);
-        transform: rotate(1deg);
+		transform: rotate(1deg);
+		border-style: none;
+		border: none;
+		outline: none;
+		box-shadow: none;
 	}
 
 	.rot2 {
